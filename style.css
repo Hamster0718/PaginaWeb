@@ -1,0 +1,68 @@
+body{
+  color:#D15426;
+  background:rgb(148,148,243);
+  margin: 2px;
+}
+
+header {
+  font-size:40px;
+  color: #D15426;
+    border-bottom: solid 2px #D15426;
+    margin 20px;
+    padding 20px;
+   font-family: "Playwrite AT", cursive;
+}
+
+.entrada {
+  font-family: "Playwrite AT", cursive;
+  background: #FFEB3B;
+  margin 20px;
+  padding 20px;
+  font-size: 30px;
+  display: flex;
+}
+
+.descricao{  
+}
+
+.primeiro{
+  margin-right:20px;
+}
+
+img {
+  width: 400px;
+  height: 225px;
+}
+
+.clipes{
+  display: flex;
+  overflow-x: auto;
+  gap:10px;
+}
+
+p{
+  text-align: justify;
+}
+
+.outros{
+ padding-left: 20px;
+  padding-right: 20px;
+  font-size: 20px;
+  font-family: "Playwrite AT", cursive;
+}
+
+.outros img{
+  opacity: 0.5;
+}
+
+.outros img:hover {
+  opacity: 1.0;
+  border: solid 3px yellow
+}
+
+.logo{
+  position: relative;
+  top: -40px;
+  left: 500px;
+  width: 200px;
+}
